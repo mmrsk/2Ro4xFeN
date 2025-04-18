@@ -280,6 +280,7 @@ OUR EXPERTISE
 }
 .expertise-1 {
     background-color: #e5e5e5;
+    
 }
 .expertise-2 {
     background-color: #f5f5f5;
@@ -497,9 +498,27 @@ CONTACT
 
 ------------------------------ */
 
+/* 
 #contact {
     background: #000;
-}
+} 
+*/
+
+#contact {
+    animation: pulse 10s infinite;
+  }
+  
+  @keyframes pulse {
+    0% {
+      background-color: #001F3F;
+    }
+    50% {
+        background-color: #FF4136;
+      }
+    100% {
+      background-color: #001F3F;
+    }
+  }
 #contact .section-header {
     background: #fff;
     color:#000;
