@@ -232,17 +232,18 @@ STATEMENT
 #statement {
     width: 100%;
     background-image: url(../img/mediaFrame-symbol-isometric.svg);
-    background-color: var(--brand-color-blue-3);
+    background-color: var(--brand-color-blue-4);
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 #statement p {
     line-height: 140%;
-    color: #fff;
+    color: var(--brand-color-gray-3);
 }
 #statement p em {
     font-weight: 600;
     font-style: normal;
+    color: var(--brand-color-blue-0);
 }
 
 /* Mobile */
@@ -283,7 +284,8 @@ OUR EXPERTISE
 ------------------------------ */
 
 #expertise {
-    background: var(--brand-color-gray-2);
+    background: var(--brand-color-gray-3);
+    mix-blend-mode: hard-light;
 }
 
 #expertise .section-header {
@@ -293,9 +295,11 @@ OUR EXPERTISE
 .expertise {
     display: block;
 }
+.expertise h3 {
+    color: var(--brand-color-blue-3);
+}
 .expertise-1 {
     background-color: var(--brand-color-gray-1);
-var(--brand-color-gray-1)
 }
 .expertise-2 {
     background-color: #fff;
@@ -378,11 +382,11 @@ OUR ADVANTAGE
     color: #fff;
 }
 #advantage .section-header {
-    border: 2px solid var(--brand-color-blue-0);
-    color: var(--brand-color-blue-0);
+    border: 2px solid var(--brand-color-blue-1);
+    color: var(--brand-color-blue-1);
 }
-#advantage h3 {
-    color: var(--brand-color-blue-0);
+.list-advantage p {
+    color: var(--brand-color-blue-1);
 }
 
 /* Mobile */
