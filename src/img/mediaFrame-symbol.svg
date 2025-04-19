@@ -1,19 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 900 900">
-  <!-- Generator: Adobe Illustrator 29.3.1, SVG Export Plug-In . SVG Version: 2.1.0 Build 151)  -->
+  <!-- Generator: Adobe Illustrator 29.4.0, SVG Export Plug-In . SVG Version: 2.1.0 Build 152)  -->
   <defs>
     <style>
       .st0 {
-        fill: #fff;
-        opacity: .1;
+        fill: #279eff;
+      }
+
+      .st0, .st1 {
+        isolation: isolate;
       }
 
       .st1 {
-        fill: #279eff;
-        opacity: .5;
+        fill: #fff;
+        opacity: .1;
       }
     </style>
   </defs>
-  <path class="st0" d="M300,300V0h600v300h-300v300h-300v300H0V300h300Z"/>
-  <rect class="st1" width="300" height="300"/>
+  <path class="st1" d="M300,300V0h600v300h-300v300h-300v300H0V300h300Z"/>
+  <rect class="st0" width="300" height="300"/>
 </svg>
