@@ -110,6 +110,20 @@ ul[class] {
     }
 }
 
+/* Tablet portrait */
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+    #opening
+    {
+        height: 50vh;
+    }
+
+}
 
 /* ------------------------------
 
@@ -117,9 +131,9 @@ HEADER
 
 ------------------------------ */
 
-/* Mobile */
+/* Mobile AND tablet */
 
-@media only screen and (max-width: 599px) {
+@media only screen and (max-width: 900px) {
     header#header {
         display: none;
     }
